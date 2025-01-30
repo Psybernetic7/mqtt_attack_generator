@@ -1,0 +1,17 @@
+scriptConfigurations:
+- address: 127.0.0.1
+  keep_alive: 9
+  mode: slowdos
+  port: 1883
+  slow_dos_path: /home/jishnusen/Desktop/mqtt/MQTT_SlowITe/MQTT_attack_slowITe/MQTT_SlowDoS.py
+  time: 10
+- address: 127.0.0.1
+  mode: bruteforce
+  mqttsa_path: /home/jishnusen/Desktop/mqtt/mqttsa/mqttsa.py
+  port: 1883
+  username: test
+  wordlist: /home/jishnusen/Desktop/mqtt/mqttsa/src/words.txt
+- address: 127.0.0.1
+  mode: malformed
+  mqttsa_path: /home/jishnusen/Desktop/mqtt/mqttsa/mqttsa.py
+  port: 1883

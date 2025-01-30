@@ -1,0 +1,14 @@
+scriptConfigurations:
+- address: 127.0.0.1
+  keep_alive: 10
+  mode: slowdos
+  port: 1883
+  slow_dos_path: /home/jishnusen/Desktop/mqtt/MQTT_SlowITe/MQTT_attack_slowITe/MQTT_SlowDoS.py
+  time: 10
+- address: 127.0.0.1
+  malaria_path: ''
+  message_count: 10
+  message_size: 4
+  mode: malaria
+  port: 1883
+  processes: 8

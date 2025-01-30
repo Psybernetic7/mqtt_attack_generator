@@ -1,0 +1,11 @@
+scriptConfigurations:
+- address: 127.0.0.1
+  mode: bruteforce
+  mqttsa_path: /home/jishnusen/Desktop/mqtt/mqttsa/mqttsa.py
+  port: 1883
+  username: test
+  wordlist: /home/jishnusen/Desktop/mqtt/mqttsa/src/words.txt
+- address: 127.0.0.1
+  mode: malformed
+  mqttsa_path: /home/jishnusen/Desktop/mqtt/mqttsa/mqttsa.py
+  port: 1883
